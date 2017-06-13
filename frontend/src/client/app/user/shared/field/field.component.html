@@ -1,0 +1,13 @@
+<div [formGroup]="form">
+    <label [attr.for]="field.key">{{field.label}}</label>
+    <div [ngSwitch]="field.controlType">
+        <input *ngSwitchCase="'text'" [formControlName]="field.key" [id]="field.key" [type]="field.type" />
+    </div>
+
+    <div class="errorMessage" *ngIf="!isEmpty && !isValid">
+        {{field.label}}格式不正确!
+    </div>
+    <div class="tipMessage" *ngIf="isEmpty">
+        请填写{{field.label}}!
+    </div>
+</div>

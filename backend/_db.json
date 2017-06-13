@@ -1,0 +1,107 @@
+{
+    "questionnaires": [{
+            "title": "满意度调查问卷",
+            "starter": "欢迎大家说出自己的心声",
+            "ending": "感谢您的参与!",
+            "state": 2,
+            "questionList": [{
+                    "title": "您的名字",
+                    "type": 0,
+                    "answer": ""
+                },
+                {
+                    "title": "性别",
+                    "type": 1,
+                    "options": [{
+                            "key": 0,
+                            "value": "男"
+                        },
+                        {
+                            "key": 1,
+                            "value": "女"
+                        }
+                    ],
+                    "answer": ""
+                },
+                {
+                    "title": "您的爱好",
+                    "type": 2,
+                    "options": [{
+                            "key": 0,
+                            "value": "学习"
+                        },
+                        {
+                            "key": 1,
+                            "value": "学习"
+                        },
+                        {
+                            "key": 2,
+                            "value": "学习"
+                        }
+                    ],
+                    "answer": {
+                        "selected": []
+                    }
+                },
+                {
+                    "title": "你对你的长相打分(满分100)",
+                    "type": 3,
+                    "answer": ""
+                }
+            ],
+            "id": "91313aa0-4a93-11e7-aa6e-81f165b31f07",
+            "createDate": "2017-6-6"
+        },
+        {
+            "title": "ewrwer",
+            "starter": "",
+            "ending": "",
+            "state": 2,
+            "questionList": [],
+            "id": "339cc060-4bee-11e7-9e2a-6782f5eed1db",
+            "createDate": "2017-6-8"
+        },
+        {
+            "title": "",
+            "starter": "",
+            "ending": "",
+            "state": 1,
+            "questionList": [{
+                    "title": "问题标题",
+                    "type": 1,
+                    "options": [{
+                        "key": 0,
+                        "value": "选项1"
+                    }],
+                    "answer": ""
+                },
+                {
+                    "title": "问题标题",
+                    "type": 2,
+                    "options": [{
+                        "key": 0,
+                        "value": "选项1"
+                    }],
+                    "answer": {
+                        "selected": []
+                    }
+                }
+            ],
+            "id": "0f58afd0-4c29-11e7-9e2a-6782f5eed1db",
+            "createDate": "2017-6-8"
+        },
+        {
+            "title": "",
+            "starter": "",
+            "ending": "",
+            "state": 1,
+            "questionList": [],
+            "id": "31012c20-4c29-11e7-9e2a-6782f5eed1db",
+            "createDate": "2017-6-8"
+        }
+    ],
+    "user": [{
+        "username": "admin",
+        "password": "123456"
+    }]
+}
