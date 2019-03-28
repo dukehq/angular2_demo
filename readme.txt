@@ -1,0 +1,1 @@
+val sc = new SparkContext()
